@@ -10,7 +10,6 @@
     <tags>xamarin ios listview gridview fastcell</tags>
     <projectUrl>https://github.com/envicase/TwinTechsFormsLib</projectUrl>
     <licenseUrl>https://github.com/twintechs/TwinTechsFormsLib/LICENSE</licenseUrl>
-    <iconUrl></iconUrl>
     <releaseNotes>releaseNotes</releaseNotes>
     <dependencies>
       <dependency id="Xamarin.Forms" version="1.5.0.6447" />
