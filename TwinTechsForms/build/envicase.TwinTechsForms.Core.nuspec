@@ -16,9 +16,9 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\TwinTechsForms.Core\bin\Release\TwinTechsForms.dll" target="lib\portable-net45+netcore50+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10" />
-    <file src="..\TwinTechsForms.Core\bin\Release\TwinTechsForms.pdb" target="lib\portable-net45+netcore50+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10" />
-    <file src="..\**\*.cs" target="src\portable-net45+netcore50+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10" />
-    <file src="Install.ps1" target="tools\portable-net45+netcore50+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10" />
+    <file src="..\TwinTechsForms.Core\bin\Release\TwinTechsForms.dll" target="lib\portable-net45+netcore50+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10" />
+    <file src="..\TwinTechsForms.Core\bin\Release\TwinTechsForms.pdb" target="lib\portable-net45+netcore50+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10" />
+    <file src="..\**\*.cs" target="src\portable-net45+netcore50+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10" />
+    <file src="Install.ps1" target="tools\portable-net45+netcore50+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10" />
   </files>
 </package>
