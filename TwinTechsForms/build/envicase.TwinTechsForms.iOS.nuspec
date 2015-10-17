@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <title>envicase.TwinTechsForms.iOS</title>
+    <id>envicase.TwinTechsForms.iOS</id>
+    <version>0.0.0</version>
+    <authors>twintechs</authors>
+    <description>envicase.TwinTechsForms.iOS</description>
+    <copyright>(c) 2015 twintechs</copyright>
+    <tags>xamarin ios listview gridview fastcell</tags>
+    <projectUrl>https://github.com/envicase/TwinTechsFormsLib</projectUrl>
+    <licenseUrl>https://github.com/twintechs/TwinTechsFormsLib/LICENSE</licenseUrl>
+    <iconUrl></iconUrl>
+    <releaseNotes>releaseNotes</releaseNotes>
+    <dependencies>
+      <dependency id="Xamarin.Forms" version="1.5.0.6447" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\TwinTechsForms.iOS\bin\Release\TwinTechsLib.iOS.lib" target="lib\portable-net45+netcore50+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10" />
+    <file src="..\TwinTechsForms.iOS\bin\Release\TwinTechsLib.iOS.pdb" target="lib\portable-net45+netcore50+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10" />
+    <file src="..\TwinTechsForms.iOS\bin\Release\TwinTechsLib.iOS.xml" target="lib\portable-net45+netcore50+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10" />
+    <file src="..\**\*.cs" target="src\portable-net45+netcore50+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10" />
+    <file src="Install.ps1" target="tools\portable-net45+netcore50+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10" />
+  </files>
+</package>
