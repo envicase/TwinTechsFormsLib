@@ -2,7 +2,7 @@
 
   <!-- Global Properties and Items -->
   <PropertyGroup>
-    <PackagesDirectory>$(RootDir)src\ReactiveMvvm\packages\</PackagesDirectory>
+    <PackagesDirectory>$(RootDir)packages\</PackagesDirectory>
   </PropertyGroup>
   <ItemGroup>
     <CopyNuspecFiles Include="@(NuspecFiles)"/>
@@ -10,8 +10,8 @@
 
   <!-- UsingTasks -->
   <ItemGroup>
-    <CIBuildTasksPath Include="$(RootDir)build\Jwc.CIBuildTasks.dll" />
-    <XunitRunnerPath Include="$(RootDir)build\xunit.runner.msbuild.dll" />
+    <CIBuildTasksPath Include="$(RootDir)**\Jwc.CIBuildTasks.dll" />
+    <XunitRunnerPath Include="$(RootDir)**\xunit.runner.msbuild.dll" />
   </ItemGroup>
   <PropertyGroup>
     <CIBuildTasksPath>@(CIBuildTasksPath)</CIBuildTasksPath>
