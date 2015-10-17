@@ -13,7 +13,7 @@
     <iconUrl></iconUrl>
     <releaseNotes>releaseNotes</releaseNotes>
     <dependencies>
-      <dependency id="Xamarin.Forms" version="1.5.0.6447" />
+      <dependency id="envicase.TwinTechsForms.Core" version="0.0.0" />
     </dependencies>
   </metadata>
   <files>
