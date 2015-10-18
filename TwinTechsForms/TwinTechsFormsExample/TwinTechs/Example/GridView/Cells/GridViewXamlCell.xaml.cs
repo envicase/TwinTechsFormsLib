@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
-using XLabs.Forms.Controls;
+using TwinTechs.Forms.Controls;
 
 namespace TwinTechs.Example.GridView.Cells
 {

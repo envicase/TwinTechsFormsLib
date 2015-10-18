@@ -1,4 +1,4 @@
-namespace XLabs.Forms.Controls
+namespace TwinTechs.Forms.Controls
 {
 	using System.ComponentModel;
 	using CoreGraphics;

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace XLabs
+namespace TwinTechs
 {
 	/// <summary>
 	/// Generic event argument class

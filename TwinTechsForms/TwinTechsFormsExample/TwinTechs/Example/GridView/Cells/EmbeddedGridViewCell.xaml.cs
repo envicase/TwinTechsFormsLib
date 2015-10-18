@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Xamarin.Forms;
 using TwinTechs.Example;
 using System.Collections.ObjectModel;
-using XLabs.Forms.Controls;
+using TwinTechs.Forms.Controls;
 using TwinTechs.Extensions;
 
 namespace TwinTechs.Example.GridView.Cells
@@ -29,7 +29,7 @@ namespace TwinTechs.Example.GridView.Cells
 		}
 
 
-		void OnItemSelected (object sender, XLabs.GridEventArgs<object> e)
+		void OnItemSelected (object sender, TwinTechs.GridEventArgs<object> e)
 		{
 			var item = e.Value as MediaItem;
 			this.ParentView.GetParentPage ().DisplayAlert ("you selected an item", item.Name, "Ok");

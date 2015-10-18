@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
-namespace XLabs.Forms.Controls
+namespace TwinTechs.Forms.Controls
 {
 	public abstract class FastGridCell : ViewCell
 	{

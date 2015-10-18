@@ -7,7 +7,7 @@
 	xmlns:gestures="clr-namespace:TwinTechs.Gestures;assembly=TwinTechsForms"
 	xmlns:local="clr-namespace:TwinTechs.Example.Gestures;assembly=TwinTechsFormsExample"
 	xmlns:controls="clr-namespace:TwinTechs.Controls;assembly=TwinTechsForms"
-	xmlns:xlabs="clr-namespace:XLabs.Forms.Controls;assembly=TwinTechsForms"
+	xmlns:xlabs="clr-namespace:TwinTechs.Forms.Controls;assembly=TwinTechsForms"
 	xmlns:cells="clr-namespace:TwinTechs.Example.GridView.Cells;assembly=TwinTechsFormsExample"
 	BackgroundColor="Silver"
 	Title="Drag list example">

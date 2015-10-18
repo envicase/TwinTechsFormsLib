@@ -4,7 +4,7 @@ using Xamarin.Forms;
 using System.Diagnostics;
 using TwinTechs.Controls;
 
-namespace XLabs.Forms.Controls
+namespace TwinTechs.Forms.Controls
 {
 	public interface IGridViewProvider
 	{

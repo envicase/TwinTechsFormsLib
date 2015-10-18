@@ -1,6 +1,6 @@
 using Xamarin.Forms;
 
-using XLabs.Forms.Controls;
+using TwinTechs.Forms.Controls;
 using System.Collections.Generic;
 using CoreGraphics;
 using System.Runtime.InteropServices;
@@ -9,7 +9,7 @@ using TwinTechs.Controls;
 using System.Diagnostics;
 
 [assembly: ExportRenderer (typeof(GridView), typeof(GridViewRenderer))]
-namespace XLabs.Forms.Controls
+namespace TwinTechs.Forms.Controls
 {
 	using System;
 	using System.Collections;

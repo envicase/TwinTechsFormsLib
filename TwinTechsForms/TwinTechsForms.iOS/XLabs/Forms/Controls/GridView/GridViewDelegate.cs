@@ -1,6 +1,6 @@
 using CoreGraphics;
 
-namespace XLabs.Forms.Controls
+namespace TwinTechs.Forms.Controls
 {
 	using Foundation;
 	using UIKit;

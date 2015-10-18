@@ -103,7 +103,7 @@ namespace TwinTechs.Example.Gestures
 		}
 
 
-		void OnItemSelected (object sender, XLabs.GridEventArgs<object> e)
+		void OnItemSelected (object sender, TwinTechs.GridEventArgs<object> e)
 		{
 			var item = e.Value as MediaItem;
 			DisplayAlert ("you selected an item", item.Name, "Ok");
