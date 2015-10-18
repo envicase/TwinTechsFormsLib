@@ -52,8 +52,7 @@ namespace TwinTechs.Ios.Controls
 		            options: SDWebImageOptions.HighPriority
 		                | SDWebImageOptions.RetryFailed
 		                | SDWebImageOptions.CacheMemoryOnly
-		                | SDWebImageOptions.ContinueInBackground
-                        | SDWebImageOptions.DelayPlaceholder);
+		                | SDWebImageOptions.ContinueInBackground);
 			} else {
 //				Control.Image = UIImage.FromBundle ("placeholder.png");
 			}
