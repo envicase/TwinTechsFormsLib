@@ -48,11 +48,12 @@ namespace TwinTechs.Ios.Controls
 		    {
 		        this.Control.SetImage(
 		            url: new NSUrl(imageUrl),
-		            placeholder: UIImage.FromBundle("placeholder.png"),
+		            placeholder: null,
 		            options: SDWebImageOptions.HighPriority
 		                | SDWebImageOptions.RetryFailed
 		                | SDWebImageOptions.CacheMemoryOnly
-		                | SDWebImageOptions.ContinueInBackground);
+		                | SDWebImageOptions.ContinueInBackground
+                        | SDWebImageOptions.DelayPlaceholder);
 			} else {
 //				Control.Image = UIImage.FromBundle ("placeholder.png");
 			}
