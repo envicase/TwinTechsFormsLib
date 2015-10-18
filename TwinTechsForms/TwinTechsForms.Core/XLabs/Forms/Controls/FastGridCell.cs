@@ -28,11 +28,11 @@ namespace TwinTechs.Forms.Controls
 
 		protected override void OnBindingContextChanged ()
 		{
-			base.OnBindingContextChanged ();
 			if (IsInitialized) {
 				SetupCell (true);
 			}
-		}
+            base.OnBindingContextChanged();
+        }
 
 		/// <summary>
 		/// Setups the cell. You should call InitializeComponent in here
