@@ -44,11 +44,15 @@ namespace TwinTechs.Ios.Controls
 			if (Control == null) {
 				return;
 			}
-			if (imageUrl != null) {
-				Control.SetImage (
-					url: new NSUrl (imageUrl), 
-					placeholder: UIImage.FromBundle ("placeholder.png")
-				);
+		    if (imageUrl != null)
+		    {
+		        this.Control.SetImage(
+		            url: new NSUrl(imageUrl),
+		            placeholder: UIImage.FromBundle("placeholder.png"),
+		            options: SDWebImageOptions.HighPriority
+		                | SDWebImageOptions.RetryFailed
+		                | SDWebImageOptions.CacheMemoryOnly
+		                | SDWebImageOptions.ContinueInBackground);
 			} else {
 //				Control.Image = UIImage.FromBundle ("placeholder.png");
 			}
