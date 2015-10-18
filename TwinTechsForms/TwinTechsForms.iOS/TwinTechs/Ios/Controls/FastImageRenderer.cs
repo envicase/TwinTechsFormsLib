@@ -39,23 +39,38 @@ namespace TwinTechs.Ios.Controls
 
 		#region FastImageProvider implementation
 
-		public void SetImageUrl (string imageUrl)
-		{
-			if (Control == null) {
-				return;
-			}
-		    if (imageUrl != null)
-		    {
-		        this.Control.SetImage(
-		            url: new NSUrl(imageUrl),
-		            placeholder: null,
-		            options: SDWebImageOptions.HighPriority
-		                | SDWebImageOptions.RetryFailed
-                        | SDWebImageOptions.ContinueInBackground);
-			} else {
+	    public void SetImageUrl(string imageUrl)
+	    {
+	        if (this.Control == null)
+	        {
+	            return;
+	        }
+	        if (imageUrl != null)
+	        {
+	            this.Control.SetImage(
+	                url: new NSUrl(imageUrl),
+	                placeholder: null,
+	                options: SDWebImageOptions.HighPriority
+	                    | SDWebImageOptions.RetryFailed
+	                    | SDWebImageOptions.ContinueInBackground,
+	                completionHandler: async (image, error, type, url) =>
+	                {
+	                    if (type == SDImageCacheType.None)
+	                    {
+	                        this.Control.Alpha = 0;
+	                        await UIView.AnimateAsync(0.3, () => this.Control.Alpha = 1);
+	                    }
+	                    else
+	                    {
+	                        this.Control.Alpha = 1
+	                    }
+	                });
+	        }
+	        else
+	        {
 //				Control.Image = UIImage.FromBundle ("placeholder.png");
-			}
-		}
+	        }
+	    }
 
 		#endregion
 	}
