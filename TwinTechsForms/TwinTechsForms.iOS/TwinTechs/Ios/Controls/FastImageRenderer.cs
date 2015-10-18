@@ -62,7 +62,7 @@ namespace TwinTechs.Ios.Controls
 	                    }
 	                    else
 	                    {
-	                        this.Control.Alpha = 1
+	                        this.Control.Alpha = 1;
 	                    }
 	                });
 	        }
