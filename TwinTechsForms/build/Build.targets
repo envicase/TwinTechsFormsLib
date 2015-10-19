@@ -124,9 +124,9 @@
       <NugetPath Include="$(PackagesDirectory)**\nuget.exe" />
     </ItemGroup>
     <PropertyGroup>
-      <NugetPath>%(NugetPath.FullPath)</NugetPath>
+      <NugetPath>&quot;%(NugetPath.FullPath)&quot;</NugetPath>
     </PropertyGroup>
-    <Exec Command="$(NugetPath) pack %(NuspecFiles.Identity) -Symbols -NoPackageAnalysis" />
+    <Exec Command="$(NugetPath) pack &quot;%(NuspecFiles.Identity)&quot; -Symbols -NoPackageAnalysis" />
   </Target>
   
   <Target Name="PushNugetPackages">
