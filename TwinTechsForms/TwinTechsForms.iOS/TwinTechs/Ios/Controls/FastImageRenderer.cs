@@ -52,19 +52,7 @@ namespace TwinTechs.Ios.Controls
 	                placeholder: null,
 	                options: SDWebImageOptions.HighPriority
 	                    | SDWebImageOptions.RetryFailed
-	                    | SDWebImageOptions.ContinueInBackground,
-	                completionHandler: async (image, error, type, url) =>
-	                {
-	                    if (type == SDImageCacheType.None)
-	                    {
-	                        this.Control.Alpha = 0;
-	                        await UIView.AnimateAsync(0.3, () => this.Control.Alpha = 1);
-	                    }
-	                    else
-	                    {
-	                        this.Control.Alpha = 1;
-	                    }
-	                });
+	                    | SDWebImageOptions.ContinueInBackground);
 	        }
 	        else
 	        {
