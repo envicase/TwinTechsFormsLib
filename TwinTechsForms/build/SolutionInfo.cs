@@ -3,10 +3,10 @@ using System.Resources;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyVersion("0.1.2")]
-[assembly: AssemblyInformationalVersion("0.1.2-test06")]
+[assembly: AssemblyInformationalVersion("0.1.2")]
 
 /*
- * Version 0.1.2-test06
+ * Version 0.1.2
  * 
- * - To test the SDWebImageOptions options.
+ * - Set the SDWebImageOptions options to load image more explicitly.
  */
